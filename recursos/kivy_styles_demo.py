@@ -50,8 +50,8 @@ class StyledLayout(BoxLayout):
 
     def change_blue(self):
         self.saludo_text.text = "¡Cambio a  [color=0000ff]AZUL[/color]!"
-        self.boton1.background_color = (0, 0, 1, 1)  # Cambia a rojo
-        self.boton2.background_color = (0, 0, 1, 1)  # Cambia a rojo
+        self.boton1.background_color = (0, 0, 1, 1)  # Cambia a azul
+        self.boton2.background_color = (0, 0, 1, 1)  # Cambia a azul
 
 
 class MyApp(App):
